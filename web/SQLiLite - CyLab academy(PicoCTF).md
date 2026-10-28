@@ -16,8 +16,10 @@ Username: admin
 Password: admin
 ```
 and that returned as failed login. 
+
 2. It came to my attention that the login process is done with a plaintext SQL query, and the failed query was shown to me: `SQL query: SELECT * FROM users WHERE name='admin' AND password='admin'`
 so next step for me was to construct a SQL injection attack. 
+
 3. By observing the structure of the query, we can know that the main payload should be at the name section, so I tried the following payload. 
 
 ```text
