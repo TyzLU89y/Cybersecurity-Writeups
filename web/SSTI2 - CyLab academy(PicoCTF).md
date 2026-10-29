@@ -1,4 +1,4 @@
-# SQLiLite
+# SSTI2
 
 - **Platform:** CyLab academy(PicoCTF)
 - **Category:** Web
