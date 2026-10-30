@@ -19,7 +19,7 @@ Password: admin
 ```
 and the website returned with `Incorrect Password`.
 
-2. After reading `.../index.js`, we can see that comparisons of username and password were done on the output of a function called `atob()`.
+2. After reading `.../index.js`, we can see that comparisons of username and password were done on the output of a function called `btoa()`.
 After reading the javascript documents, we can know that the function returns a base64-encoded ASCII string.  
 3. by decoding the two strings:
 ```
