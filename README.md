@@ -1,3 +1,3 @@
 # Cybersecurity-Writeups
 
-Ac ollection of my writeups for CTFs and notes
+A collection of my writeups for CTFs and notes
