@@ -27,7 +27,7 @@ We were able to login.
 ```
 YWNhZGVteXtqQmhEMnk3WG9OelB2XzFZeFM5RXc1cUwwdUk2cGFzcWxfaW5qZWN0aW9uXzIyOTAyMmZmfQ==
 ```
-This looked like a Base64 string, 
+This looked like a Base64 string, after decoding it, we can get the flag. 
 
 
 ## Flag
@@ -36,8 +36,8 @@ This looked like a Base64 string,
 
 ## Key Takeaway
 
-The `user-agent` request header in a http request identifies the client software making the request.
+Simillar to SQL Injection vulnerabilities, NoSQL injections are also caused because of inputs by the user. So the best practice is no matter how and what are the means of query, let the user choose from presets instaed of arbitary inputs. 
 
 ## References
 
-- [https://learn.cylabacademy.org/library/9]
+- [https://learn.cylabacademy.org/library/443]
